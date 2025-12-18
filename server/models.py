@@ -1,7 +1,7 @@
 # server/models.py
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy # type: ignore
 from sqlalchemy import MetaData
-from sqlalchemy_serializer import SerializerMixin 
+from sqlalchemy_serializer import SerializerMixin  # type: ignore
 
 metadata = MetaData()
 db = SQLAlchemy(metadata=metadata)

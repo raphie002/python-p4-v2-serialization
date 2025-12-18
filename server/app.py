@@ -1,7 +1,7 @@
 # server/app.py
 #!/usr/bin/env python3
 from flask import Flask, make_response
-from flask_migrate import Migrate
+from flask_migrate import Migrate # type: ignore
 
 from models import db, Pet
 
