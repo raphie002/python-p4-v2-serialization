@@ -1,3 +1,4 @@
+# server/migrations/versions/c6714e810146_initial_migration.py
 """Initial migration.
 
 Revision ID: c6714e810146
